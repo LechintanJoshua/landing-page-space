@@ -23,6 +23,10 @@ button {
     font-weight: 600;
 }
 
+/* footer {
+    background-color: ;
+} */
+
 .header {
     background-color: black;
     padding-bottom: 50px;
@@ -134,4 +138,37 @@ button {
     font-size: 24px;
     font-weight: 600;
     color: antiquewhite;
+}
+
+.quote {
+    background: linear-gradient(to bottom, gray, white);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galaxy {
+    color: bisque;
+    background-image: url(images/pexels-alex-andrews-816608.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.galaxy .one,
+.galaxy .two {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.galaxy .two {
+    align-self: flex-end;
 }

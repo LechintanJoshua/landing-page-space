@@ -84,13 +84,54 @@ button {
     font-size: 24px;
 }
 
-.right {
-    
-}
-
 .right img {
     border-radius: 50%;
     box-shadow: 10px 5px 5px 0 rgba(241, 125, 1, 0.907);
     width: 400px;
     height: 400px;
+}
+
+.container {
+    background: linear-gradient(to bottom, black, gray);
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.container .one,
+.container .two {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 18px;
+}
+
+.container .two {
+    color: antiquewhite;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin-bottom: 16px;
+}
+
+.sub {
+    max-width: 200px;
+    margin-bottom: 40px;
+}
+
+.sub p {
+    font-size: 24px;
+    font-weight: 600;
+    color: antiquewhite;
 }

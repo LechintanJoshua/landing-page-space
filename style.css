@@ -173,3 +173,40 @@ button {
 .galaxy .two {
     align-self: flex-end;
 }
+
+.sign-up {
+    background: linear-gradient(to bottom, white, gray);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .support {
+    display: flex;
+    border-radius: 25px;
+    gap: 50px;
+    background-image: url(images/pexels-pixabay-355465.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.support .paragraphs {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+    color: antiquewhite;
+}
+
+.support .paragraphs .one {
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.support .button {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -21,6 +21,7 @@ button {
     background-color: midnightblue;
     color: aliceblue;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* footer {
@@ -209,4 +210,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, gray, black);
+    height: 75px;
+    color: aliceblue;
+    font-size: 18px;
 }
